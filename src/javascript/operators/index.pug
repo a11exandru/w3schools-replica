@@ -1,0 +1,22 @@
+extends ../../_component/layout/template
+
+block cool-config
+  -
+    var myTitle= 'Learn to code about JavaScript operators for beginners!';
+    var myDescription= 'JavaScript Operators are easy to learn.';
+    var landingPage='JavaScript';
+    var activeLink= '/javascript/operators';
+
+block awesome-content
+  h1=myTitle
+  p=myDescription
+  h2 JavaScript Operators
+  h3 Example
+  p Assign values to variables and add them togheter:
+  p var x = 5;
+  p var y = 2;
+  p var z = x + y;
+  ul
+  li The assignment operator (=) assigns a value to a variable.
+  li The addition operator (+) adds numbers.
+  p For more informations visit #[a(href="https://w3schools.com") the official site of w3schools]
